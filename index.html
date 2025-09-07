@@ -5,85 +5,70 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Mini Portfolio</title>
 		<link rel="stylesheet" href="css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+		<script
+			src="https://kit.fontawesome.com/e24dc1ae05.js"
+			crossorigin="anonymous"></script>
 	</head>
-	<body>
+	<body class="main-page">
 		<header>
 			<nav>
-				<div class="box-logo"></div>
+				<div class="box-logo">Maher Qarni</div>
 				<div class="links-container">
-					<a href="#">About</a>
-					<a href="#">About</a>
-					<a href="#">About</a>
+					<a href="#about">About</a>
+					<a href="#work">Work</a>
+					<a href="#contact">Contact</a>
 				</div>
 			</nav>
 		</header>
 		<main>
-			<div class="intro-container">
-				<div>
-					<h2>Maher</h2>
-					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-						rem molestias nemo veniam placeat provident quidem quibusdam et
-						reprehenderit, nulla aspernatur perspiciatis aut libero repellendus
-						id saepe voluptatem officiis maxime?
-					</p>
-				</div>
-
-				<!-- <ul>
-					<li>abc</li>
-					<li>abc</li>
-					<li>abc</li>
-					<li>abc</li>
-				</ul> -->
+			<div class="intro-container" id="about">
+				<h1>Hello! I'm Maher, and I'm a Software Developer.</h1>
+				<p>
+					recent graduate in Computer Science from King Saud University, and
+					currently enrolling in SDA x GENERAL ASSEMBLY software development
+					bootcamp.
+				</p>
+				<p>
+					"I take pride in my work, and I aspire to be the best version of my
+					self ✨".
+				</p>
 			</div>
 
-			<div class="work-container">
+			<div class="work-container" id="work">
+				<h2>Selected Work</h2>
 				<div class="work-card">
-					<img
-						src="https://placehold.co/110x110?utm_source=chatgpt.com"
-						alt=""
-						style="float: right" />
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae
-						saepe quis dolor ipsa delectus ducimus ad at, illo debitis excepturi
-						ab necessitatibus aut tempore dolores tenetur voluptatem! Debitis,
-						expedita.
-					</p>
-				</div>
-			</div>
-			<div class="work-container">
-				<div class="work-card">
-					<img
-						src="https://placehold.co/110x110?utm_source=chatgpt.com"
-						alt=""
-						style="float: right" />
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae
-						saepe quis dolor ipsa delectus ducimus ad at, illo debitis excepturi
-						ab necessitatibus aut tempore dolores tenetur voluptatem! Debitis,
-						expedita.
-					</p>
+					<div class="project-image-container">
+						<img src="assets/project-image.jpg" alt="" />
+					</div>
+					<div class="project-description-container">
+						<h3>Report Recording System</h3>
+						<p>
+							A desktop app for the maintenance department to record daily jobs
+							and track machine downtime.
+						</p>
+						<a href="projects/report-system.html">Read more -></a>
+					</div>
 				</div>
 				<div class="work-card">
-					<!-- <img
-						src="https://placehold.co/110x110?utm_source=chatgpt.com"
-						alt=""
-						style="float: right" /> -->
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae
-						saepe quis dolor ipsa delectus ducimus ad at, illo debitis excepturi
-						ab necessitatibus aut tempore dolores tenetur voluptatem! Debitis,
-						expedita.
-					</p>
+					<div class="project-image-container">
+						<img src="assets/mockup2.jpg" alt="" />
+					</div>
+					<div class="project-description-container">
+						<h3>Web Pages Challenges</h3>
+						<p>recreatong web pages, to test html, and css skills</p>
+						<a href="not-finished.html">Read more -></a>
+					</div>
 				</div>
 			</div>
 		</main>
-
-		<div class="footer">
-			<p>2025 something</p>
-			<img src="at.png" alt="" />
-			<img src="at.png" alt="" />
-		</div>
-		<footer></footer>
+		<footer id="contact">
+			<a href="not-finished.html"><i class="fa-brands fa-github"></i></a>
+			<a href="not-finished.html">
+				<i class="fab fa-linkedin"></i>
+			</a>
+		</footer>
 	</body>
 </html>
